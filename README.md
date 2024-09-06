@@ -9,3 +9,21 @@
     <li><strong>Airwriting Recognition</strong>: Incorporates an airwriting feature (Notebook_4) to analyze handwriting traced in the air.</li>
     <li><strong>Machine Learning Models</strong>: Models are built using Support Vector Machines (SVMs) and trained across multiple notebooks for different aspects of personality analysis.</li>
 </ul>
+
+<h2>Usage</h2>
+<ol>
+    <li>Open the app in your browser at <code>http://localhost:5000</code>.</li>
+    <li>Upload a handwriting image in the supported formats (PNG, JPG).</li>
+    <li>The app will extract features and predict personality traits.</li>
+    <li>For Hindi handwriting, use the special Hindi graphology feature to predict introversion or extroversion.</li>
+</ol>
+
+<h2>Notebooks</h2>
+<ul>
+    <li><strong>Notebook_1.ipynb</strong>: Handles the feature extraction from handwriting images. Extracts features like baseline angle, slant, letter size, and word spacing.</li>
+    <li><strong>Notebook_2.ipynb</strong>: Processes and normalizes the extracted features to ensure consistency.</li>
+    <li><strong>Notebook_3.ipynb</strong>: Trains SVM classifiers on the normalized features to predict personality traits.</li>
+    <li><strong>Notebook_4.ipynb</strong>: Evaluates the model performance and includes airwriting feature analysis.</li>
+    <li><strong>Notebook_5.ipynb</strong>: Integrates all aspects into a single model pipeline for the Flask app.</li>
+    <li><strong>hindi_graphology.ipynb</strong>: Specialized notebook for analyzing Hindi handwriting and determining introversion or extroversion.</li>
+</ul>
