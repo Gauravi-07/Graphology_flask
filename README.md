@@ -13,9 +13,8 @@
 <h2>Usage</h2>
 <ol>
     <li>Open the app in your browser at <code>http://localhost:5000</code>.</li>
-    <li>Upload a handwriting image in the supported formats (PNG, JPG).</li>
+    <li>Upload a handwriting image in the supported formats (PNG, JPG) or use the Air writing feature for English.</li>
     <li>The app will extract features and predict personality traits.</li>
-    <li>For Hindi handwriting, use the special Hindi graphology feature to predict introversion or extroversion.</li>
 </ol>
 
 <h2>Notebooks</h2>
